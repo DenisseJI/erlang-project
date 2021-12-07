@@ -38,4 +38,6 @@ run() ->
     Pid2 = spawn(?MODULE, math, []),
     Pid2 ! {add, 1, 2},
     Pid2 ! {sub, 3, 2},
+    Pid2 ! {mul, 4, 1},
+    Pid2 ! {add, 6, 3},
     ok.
