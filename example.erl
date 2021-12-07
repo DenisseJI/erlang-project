@@ -1,4 +1,4 @@
--module (send_recv).
+-module (example).
 -compile([export_all]).
 
 
